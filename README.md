@@ -42,7 +42,7 @@ Awesome-URLSchemes 是一个大集合他可以帮助您快速找到一个 app �
 * 声音设置 Prefs:root=Sounds
 * App Store 设置 Prefs:root=STORE
 * 墙纸设置 [Prefs:root=Wallpaper](Prefs:root=Wallpaper)
-* 打开电话 Mobilephone://
+* 打开电话 [Mobilephone://](Mobilephone://)
 * 世界时钟 Clock-worldclock://
 * 闹钟 Clock-alarm://
 * 秒表 Clock-stopwatch://
