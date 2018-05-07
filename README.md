@@ -1,6 +1,9 @@
 # awesome-URLSchemes
 > a collection for iOS URLSchemes
 
+**非常欢迎大家提pull request 或者 issue 来提交你知道的scheme**
+
+
 ## 关于
 
 URLScheme 是作为 App 之间跳转的一种常用的手段。目前绝大部分的 App 也都支持。自从有了 Widget 之后，也出现了很多 Luancher 可以帮助你快速的启动 App 或者 执行 App 内部的某个动作。于是就有了这个列表，尽可能的收集目前支持 URLScheme 跳转的 App 所支持的 URLScheme 的情况。以方便您快速使用 URL Scheme 去构建一些更有效率的东西。
@@ -15,18 +18,20 @@ Awesome-URLSchemes 是一个大集合他可以帮助您快速找到一个 app �
 3. 在固定时间打开某些 App
 4. ....
 
+## 介绍
+
+* [URL Schemes 使用详解](https://sspai.com/post/31500)
+
 ## 内容
 
 * 系统
 * 应用
-  - 通信
-  - 效率
-  - 电商
-  - 社交
-  - 天气
-  - 日历
+
+
 
 ## 系统
+
+> iOS 10 把之前 prefs 开头的 URL Schemes 改成了 Prefs 开头。如果是 App 调用，可添加“App-”前缀。
 
 * 电池电量 Prefs:root=BATTERY_USAGE
 * 通用设置 Prefs:root=General
@@ -48,3 +53,34 @@ Awesome-URLSchemes 是一个大集合他可以帮助您快速找到一个 app �
 * 秒表 Clock-stopwatch://
 * 倒计时 Clock-timer://
 * 打开相册 Photos://
+* 日历 calshow://
+* 备忘录 mobilenotes://
+
+
+## 应用
+
+### 微信
+
+> 在 微信 6.3.25 版本中，所有外部唤起 URL 的方式均无法打开对应页面。 未来这些 url 都只能在微信内部的浏览器使用了。
+
+
+前缀 **weixin://**
+
+* 唤起 weixin://
+* 扫一扫 wexin://scanqrcode
+
+
+### 支付宝
+
+前缀 **alipay://**
+
+* 唤起 alipays://
+* 滴滴出行 alipays://platformapi/startapp?appId=20000778
+* 蚂蚁庄园 alipays://platformapi/startapp?appId=66666674
+* 收款 alipays://platformapi/startapp?appId=20000123
+* 转账 alipays://platformapi/startapp?appId=20000221
+* 股票 alipays://platformapi/startapp?appId=20000134
+* 扫一扫 alipayqr://platformapi/startapp?saId=10000007
+* 记账 alipay://platformapi/startapp?appId=20000168
+* 蚂蚁森林 alipay://platformapi/startapp?appId=60000002
+* 手机充值 alipayqr://platformapi/startapp?saId=10000003
