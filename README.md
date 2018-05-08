@@ -31,7 +31,7 @@ Awesome-URLSchemes 是一个大集合他可以帮助您快速找到一个 app �
 
 ## 系统
 
-> iOS 10 把之前 prefs 开头的 URL Schemes 改成了 Prefs 开头。如果是 App 调用，可添加“App-”前缀。
+> iOS 10 把之前 prefs 开头的 URL Schemes 改成了 Prefs 开头。如果是 App 调用，可添加“App-”前缀。 这些在iOS 11上目前都无效。还在继续寻找有效的方法。
 
 * 电池电量 Prefs:root=BATTERY_USAGE
 * 通用设置 Prefs:root=General
